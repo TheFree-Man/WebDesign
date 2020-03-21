@@ -1,115 +1,53 @@
-header{
-    background-image: url(../images/carrots.jpg);
-    background-repeat: no-repeat;
+body{
+    font-family: sans-serif;
+    background-image: url(../images/Saint_Peters.jpg);
+    margin: 10px;
     background-size: cover;
-    height: 200px;
-    color: navajowhite;
-    border: 1px solid blue;
 }
-
-nav {
-    text-align: center;
-        background-color: #B2B2B2;
-    padding: 5px;
+main{
+    margin: 15px 200px;
+    padding: 20px;
+    border: solid black;
+    background: white;
+    min-height: 500px;
 }
-
-nav ul{
-    font-size: 1.2em;
-}
-
-nav ul li{
-    text-align: center;
-    background-color: #B2B2B2;
-    display: inline;
-    padding: 15px;
-    margin: 5px;
-}
-
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    list-style-type: none;
-    display: inline;
-    padding: 15px;
-    margin: 5px;
-}
-
-nav ul :hover{
-
-    background-color: lightgreen;
-
-}
-
-#content {
-    float: left;
-    width: 80%;
-    margin-right: 0 10px 0 10px;
-    border: 1px solid grey;
-}
-
-aside{
-    border: 5px solid yellow;
-    width:17%;
-    float: right;
-    text-align: left;
-}
-
-aside ul li a{
-    color: blue;
-    text-decoration: none;}
-
-aside ul li {
-    list-style-type: none;
-    text-align: left;
-}
-
-.col_detail {
-    column-count: 3;
-    column-rule: 1px solid white;
-    column-gap: 50px;
-    padding: 2px;
-}
-
-footer {
-    color: white;
-    clear: both;
-    border: 1px solid orange;
-    padding: 0;
-    margin: 0;
+header p{
     position: relative;
-    bottom: 0px;
-    width: 100%;
-    background-color: grey;
-    
+    top: 10px;
+    font-style: italic;
     text-align: center;
-    
-    float: right;
-    display: inline-block;
 }
-
-footer ul li {
-    list-style-type: none;
-    display: inline-block;
+.required{
+    font-weight: bold;
+    color: red;
 }
-
-footer ul li {
-    color: white;
-    display: inline-block;
-    padding: 15px;
+label{
+    float: left;
+    width: 112px; 
+    padding-right: 10px; 
+    text-align: right;
 }
-
-footer ul li a{
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
 }
-
-section {
-    background-color: black;
-    color: white;
-    text-align: center;
-    align-content: center;
-    padding: 10px;
-    margin; 10px;
+input[type="radio"] {
+    width: 10px;
+}
+input[type="checkbox"] {
+    width: 15px;
+}
+#button{
+    margin-left: 138px;
+    margin-top: .5em;
+    width: 8em;
+    background-color: orange;
+    border: 2px solid black;
+}
+#reset{
+    margin-top: .5em;
+    width: 8em;
+    background-color: orange;
+    border: 2px solid black;
 }
